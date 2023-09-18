@@ -1,0 +1,184 @@
+.parentData {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+    width: 100%;
+    padding: 0px 80px;
+}
+
+.mainHeading {
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.paragraphs {
+    font-size: 15px;
+    opacity: 0.85;
+}
+
+.parentFirstSection {
+    /* padding-left: 80px; */
+}
+
+.hrTag {
+
+    width: 88%;
+    height: 1px;
+    background-color: rgb(190, 190, 190);
+    margin: 30px auto;
+    /* margin: 0px 80px; */
+}
+
+/* .footer {
+    display:flex ;
+    justify-content: space-between;
+    max-width: 85%;
+    margin:0  auto 80px auto;
+}
+
+.footerParagraph {
+    max-width: 130px;
+}
+
+.footerInfo {
+    display: flex;
+    column-gap: 60px;
+} */
+
+
+
+
+.footer {
+    display:flex ;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid white;
+    padding-top: 30px;
+}
+
+.footerNone {
+    display: none;
+}
+
+.navContentFlex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 75px 40px 75px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    object-fit: cover;
+    margin: 15px 20px 60px 80px;
+    cursor: pointer;
+}
+
+.logoNone {
+    display: none;
+
+}
+
+.iconsParent {
+    display: flex;
+    column-gap: 15px;
+    padding-top: 10px;
+}
+.adressField {
+    max-width: 180px;
+}
+
+.contactField {
+    max-width: 180px;
+}
+
+.footerHeading {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.whatsApp {
+   transition: ease-in-out 0.5s;
+   text-align: center;
+   background-color: rgb(0, 168, 0);
+   padding: 2px;
+   border-radius: 20%;
+}
+
+.whatsApp:hover {
+    transform: rotateY(180deg);
+
+}
+
+.youtube {
+    transition: ease-in-out 0.5s;
+    text-align: center;
+    background-color: red;
+    padding: 2px;
+    border-radius: 20%;
+ }
+
+ .youtube:hover {
+    transform: rotateY(180deg);
+ }
+
+ .linkedIn {
+    background-color: rgb(76, 76, 255);
+    padding: 2px;
+    border-radius: 20%;
+    transition: ease-in-out 0.5s;
+ }
+
+ .linkedIn:hover {
+    transform: rotateY(180deg);
+ }
+
+ .mail {
+    font-weight: 500;
+ }
+
+
+@media screen and (max-width: 1280px) {
+    .parentData {
+        display: flex;
+        flex-direction: column;
+        column-gap: 80px;
+        width: 100%;
+        padding: 0 80px;
+    }
+
+    .parentFirstSection {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .parentData {
+        display: flex;
+        flex-direction: column;
+        column-gap: 80px;
+        width: 100%;
+        padding: 0 80px;
+    }
+
+    .parentFirstSection {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .parentData {
+        display: flex;
+        flex-direction: column;
+        column-gap: 80px;
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .parentFirstSection {
+        padding-left: 0px;
+    }
+}

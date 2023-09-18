@@ -1,0 +1,204 @@
+.firstSection {
+    display: flex;
+    /* column-gap: 20px; */
+    width: 100%;
+}
+
+.firstContentSection {
+    width: 50%;
+    padding: 100px 70px 40px 75px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.firstImage {
+    width: 50%;
+    height: 800px;
+    position: relative;
+    margin: 180px 80px 0px 0px;
+}
+
+
+
+.mainHeading {
+    font-size: 44px;
+}
+
+.subHeading {
+    font-size: 26px;
+}
+
+.paraGraphs {
+    font-size: 15px;
+    opacity: 0.80;
+}
+
+.miniParagraph {
+    font-size: 15px;
+    max-width: 170px;
+    opacity: 0.80;
+}
+
+.hrTag {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+}
+
+.secondSection {
+    display: flex;
+    width: 100%;
+}
+
+.secondImage {
+    width: 50%;
+    height: 800px;
+    position: relative;
+    margin: 20px 0px 0px 80px;
+}   
+
+.secondContent {
+    width: 60%;
+    padding: 20px 70px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.hrTagSecond {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    padding: 22px;
+    bottom: -60px;
+}
+
+.contentHr {
+    margin-top: 140px;
+}
+
+@media screen and (max-width:1260px) {
+    .firstImage {
+        width: 50%;
+        height: 630px;
+        position: relative;
+        margin: 180px 80px 0px 0px;
+    }
+
+    .secondImage {
+        width: 40%;
+        height: 630px;
+        position: relative;
+        margin: 20px 0px 0px 80px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .firstImage {
+        width: 50%;
+        height: 580px;
+        position: relative;
+        margin: 180px 80px 0px 0px;
+    }
+
+    .secondImage {
+        width: 40%;
+        height: 580px;
+        position: relative;
+        margin: 20px 0px 0px 80px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .firstImage {
+        width: 50%;
+        height: 430px;
+        position: relative;
+        margin: 180px 80px 0px 0px;
+    }
+
+    .secondImage {
+        width: 40%;
+        height: 430px;
+        position: relative;
+        margin: 20px 0px 0px 80px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .main {
+        padding: 0px 0px 0px 30px;
+    }
+
+    .firstSection {
+        display: flex;
+        flex-direction: column;
+        /* column-gap: 20px; */
+        width: 100%;
+    }
+
+    .firstContentSection {
+        width: 100%;
+        padding: 100px 0px 40px 0px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .firstImage {
+        width: 100%;
+        height: 900px;
+        position: relative;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .secondSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .secondImage {
+        width: 100%;
+        height: 900px;
+        position: relative;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .secondContent {
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+    }
+
+    .hrTag {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .secondImage {
+        width: 100%;
+        height: 450px;
+        position: relative;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .firstImage {
+        width: 100%;
+        height: 450px;
+        position: relative;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .contentHr {
+        margin-top: 20px;
+    }
+}

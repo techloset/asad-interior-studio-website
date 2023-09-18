@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Maison Neue Light";
+    src: url("https://db.onlinewebfonts.com/t/8b59d4b47037b08d452d8cb659cc2d53.eot");
+    src: url("https://db.onlinewebfonts.com/t/8b59d4b47037b08d452d8cb659cc2d53.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/8b59d4b47037b08d452d8cb659cc2d53.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/8b59d4b47037b08d452d8cb659cc2d53.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/8b59d4b47037b08d452d8cb659cc2d53.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/8b59d4b47037b08d452d8cb659cc2d53.svg#Maison Neue Light")format("svg");
+}
+
+body {
+    font-family: "Maison Neue Light";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

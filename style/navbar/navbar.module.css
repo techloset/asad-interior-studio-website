@@ -1,0 +1,616 @@
+.homeBurger {
+    cursor: pointer;
+    margin: 25px 25px 0 25px;
+    position: fixed;
+    z-index: 5;
+    right: 50%;
+}
+
+.homeBurgerNone {
+    display: none;
+}
+
+.navImage {
+    cursor: pointer;
+    margin: 25px 25px 0 25px;
+    position: fixed;
+    z-index: 5;
+    left: 0px;
+}
+
+.navImageCrossHome {
+    position: absolute;
+    right: 50%;
+    margin: 25px 25px 0 25px;
+    cursor: pointer;
+    z-index: 9;
+    
+}
+
+.navImageCrossNonehOME {
+    display: none;
+}
+
+
+.navImageNone {
+    display: none;
+}
+
+.navImageCross {
+    position: absolute;
+    cursor: pointer;
+    margin: 25px 25px 0 25px;    
+    z-index: 6;
+}
+
+.navImageCrossNone {
+    display: none;
+}
+
+.main {
+    position: fixed;
+    background-color: rgb(255, 208, 208);
+    width: 100%;
+    height: 100vh;
+    transition: ease-in-out;
+    transition: 0.4s;
+    z-index: 2;
+    display: flex;
+}
+
+.mainNone {
+    position: absolute;
+    /* background-color: pink; */
+    width: 100%;
+    height: 0%;
+    transition: ease-in-out;
+    transition: 0.4s;
+}
+
+.hrTag {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
+
+.parentContent {
+    /* padding: 100px 70px 100px 0px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.parentContentNone {
+    display: none;
+}
+
+.navItemMain {
+    font-weight: 300;
+    font-size: 44px;
+    cursor: pointer;
+}
+
+.navItem{
+    font-weight: 300;
+    font-size: 44px;
+    opacity: 0.40;
+    cursor: pointer;
+}
+
+.navItem:hover {
+    opacity: 100;
+    transition: ease-in-out 0.4s;
+}
+
+.footerParagraph {
+    max-width: 130px;
+    text-align: center;
+}
+
+.footerInfo {
+    display: flex;
+    column-gap: 60px;
+    font-size: 12px;
+}
+
+
+
+.footer {
+    display:flex ;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: 40px 20px 20px 0px; */
+    border-top: 1px solid white;
+    padding-top: 30px;
+}
+
+.footerNone {
+    display: none;
+}
+
+.navContentFlex {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 75px 40px 75px;
+    position: fixed;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    object-fit: cover;
+    margin: 15px 20px 60px 80px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.logoNone {
+    display: none;
+
+}
+
+.iconsParent {
+    display: flex;
+    column-gap: 15px;
+    padding-top: 10px;
+}
+.adressField {
+    max-width: 180px;
+}
+
+.contactField {
+    max-width: 180px;
+}
+
+.footerHeading {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fontSize {
+    font-size: 15px;
+}
+
+.whatsApp {
+   transition: ease-in-out 0.5s;
+   text-align: center;
+   background-color: rgb(0, 168, 0);
+   padding: 2px;
+   border-radius: 20%;
+}
+
+.whatsApp:hover {
+    transform: rotateY(180deg);
+
+}
+
+.youtube {
+    transition: ease-in-out 0.5s;
+    text-align: center;
+    background-color: red;
+    padding: 2px;
+    border-radius: 20%;
+ }
+
+ .youtube:hover {
+    transform: rotateY(180deg);
+ }
+
+ .linkedIn {
+    background-color: rgb(76, 76, 255);
+    padding: 2px;
+    border-radius: 20%;
+    transition: ease-in-out 0.5s;
+ }
+
+ .linkedIn:hover {
+    transform: rotateY(180deg);
+ }
+
+ .mail {
+    font-size: 15px;
+    cursor: pointer;
+ }
+
+
+ /* icona */
+
+.IconsContainer {
+    display: flex;
+    column-gap: 10px;
+}
+
+.IconsContainer li a {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .IconsContainer li a:hover {
+    border: none;
+  }  
+
+
+.IconsContainer li a .icon {
+  position: relative;
+  color: #262626;
+  transition: 1s;
+  font-size: 25px;
+}
+
+.IconsContainer li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.IconsContainer li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.IconsContainer li a:hover:before {
+  top: 0;
+}
+
+.IconsContainer li:nth-child(1) a:before {
+  background: rgb(0, 183, 0);
+}
+
+.IconsContainer li:nth-child(2) a:before {
+  background:#2867b2;
+}
+
+.IconsContainer li:nth-child(3) a:before {
+  background: red;
+}
+
+.IconsContainer li:nth-child(4) a:before {
+    background: #e1306c;
+}
+
+
+.Follow {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.iconsMain {
+padding-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    .navImage {
+        cursor: pointer;
+        margin: 0px;
+        position: absolute;
+        z-index: 5;
+        left: 0px;
+        right: 100px;
+        left: 25px;
+        top: 25px;
+    }
+
+    .navImageCrossHome {
+        position: absolute;
+        right: 50%;
+        margin: 0px;
+        cursor: pointer;
+        right: 25px;
+        top: 25px;
+    }
+
+    .homeBurger {
+    cursor: pointer;
+    margin:0px;
+    position: fixed;
+    z-index: 5;
+    right: 25px;
+    top: 25px;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 208, 208);
+    width: 100%;
+    height: 100vh;
+    transition: ease-in-out 0.4s;
+    z-index: 2;
+    display: flex;
+}
+
+
+}
+
+@media screen and (max-width: 767px) {
+       
+    .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        object-fit: cover;
+        margin: 15px 20px 60px 25px;
+        cursor: pointer;
+    }
+
+    .navImage {
+        cursor: pointer;
+        margin: 0px;
+        position: absolute;
+        z-index: 999;
+        left: 0px;
+        right: 100px;
+        left: 0px;
+        top: 25px;
+    }
+
+    .main {
+    position: fixed;
+    background-color: rgb(255, 208, 208);
+    width: 100%;
+    height: 100vh;
+    transition: ease-in-out;
+    transition: 0.4s;
+    z-index: 2;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.parentContent {
+    /* padding: 100px 0px 100px 0px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.navItemMain {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-weight: 500;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.parentContent {
+    padding: 100px 0px 100px 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.main {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 208, 208);
+    width: 100%;
+    height: 100vh;
+    transition: ease-in-out 0.4s;
+    z-index: 2;
+    display: flex;
+}
+
+.navContentFlex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 65px 40px 65px;
+}
+
+.parentContent {
+    padding: 100px 0px 100px 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footerInfo {
+    display: flex;
+    column-gap: 10px;
+    font-size: 12px;
+}
+
+.navImageCross {
+    cursor: pointer;
+    margin: 25px 20px 0 20px;   
+    /* display: none;  */
+}
+
+.footer {
+    display:flex ;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 20px 20px 0px;
+    border-top: 1px solid white;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 12px;
+  }
+
+  .homeBurger {
+    cursor: pointer;
+    margin:0px;
+    position: fixed;
+    z-index: 5;
+    right: 20px;
+    top: 28px;
+    font-size: 20px;
+}
+
+
+.navItem{
+    font-weight: 500;
+    font-size: 34px;
+    opacity: 0.40;
+    cursor: pointer;
+}
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        object-fit: cover;
+        margin: 15px 20px 60px 20px;
+        cursor: pointer;
+    }
+    .main {
+        position: fixed;
+        background-color: rgb(255, 208, 208);
+        width: 100%;
+        height: 100vh;
+        transition: ease-in-out;
+        transition: 0.4s;
+        z-index: 2;
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .footerInfo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: row;
+        column-gap: 20px;
+        row-gap: 10px;
+        font-size: 12px;
+        text-align: center;
+        border-top: 1px solid white;
+        padding-top: 10px;
+      }
+
+      .footer {
+        display:flex ;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 40px 0px 20px 0px;
+        border-top: none;
+    }
+
+    .paragraphFooter {
+        border-top: 1px solid white;
+        margin-top: 0;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .footerIconsParent {
+        border-top: 1px solid white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .iconsParent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+        padding-top: 10px;
+    }
+
+    .navContentFlex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 35px 40px 35px;
+    }
+
+    .IconsContainer {
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+    }
+
+    .iconsMain {
+        border-top: 1px solid #fff;
+        padding-top: 10px;
+        }
+
+        .navImage {
+            cursor: pointer;
+            margin: 0px;
+            position: absolute;
+            top: 25px;
+            z-index: 5;
+            right: 20px;
+        }     
+
+        .navItemMain {
+            /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+            font-weight: 500;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        
+.navItem{
+    font-weight: 500;
+    font-size: 24px;
+    opacity: 0.40;
+    cursor: pointer;
+}
+
+   
+
+  
+}
+
+@media screen and (max-width: 320px) {
+    .main {
+        position: fixed;
+        background-color: rgb(255, 208, 208);
+        width: 100%;
+        height: 100vh;
+        transition: ease-in-out;
+        transition: 0.4s;
+        z-index: 2;
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+
+}
